@@ -32,6 +32,7 @@ $(document).ready(function () {
                 loan_id: loan_id
             },
             success: function (res) {
+                console.log("Loaded")
                 $("#load_collection").empty();
                 $("#load_collection").html(res);
             }
